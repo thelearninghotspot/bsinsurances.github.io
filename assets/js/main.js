@@ -15,10 +15,10 @@ $(function() {
         var scroll = $(window).scrollTop();
         if (scroll < 20) {
             $(".navbar-area").removeClass("sticky");
-            $(".navbar-area img").attr("src", "assets/images/logo.JPG");
+            $(".navbar-area img").attr("src", "assets/images/logo.jpeg");
         } else {
             $(".navbar-area").addClass("sticky");
-            $(".navbar-area img").attr("src", "assets/images/logo-2.JPG");
+            $(".navbar-area img").attr("src", "assets/images/logo-2.jpeg");
         }
     });
 
@@ -192,20 +192,5 @@ $(function() {
     
     
     //===== 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
 });

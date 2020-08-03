@@ -1,21 +1,4 @@
-/*-----------------------------------------------------------------------------------
 
-    Template Name: Smash - Bootstrap Template
-    Template URI: uideck.com
-    Author: UIdeck
-    Version: 1.0
-
------------------------------------------------------------------------------------
-
-    CSS INDEX
-    ===================
-
-    01. Theme default CSS
-	02. Header
-    03. Hero
-	04. Footer
-
------------------------------------------------------------------------------------*/
 /*===========================
       01.COMMON css 
 ===========================*/
@@ -2780,7 +2763,9 @@ p {
 .about-area {
   padding-top: 80px;
   padding-bottom: 130px;
-  position: relative; }
+  position: relative; 
+  background-color: honeydew;
+}
   .about-area .about-title .sub-title {
     font-size: 18px;
     font-weight: 400;
@@ -3163,4 +3148,20 @@ p.form-message.success, p.form-message.error {
 .page-footer{
 	background-color: aliceblue;
 	
+}
+.mapClass{
+	width:600px;
+	height:450px;
+	frameborder=0px;
+	aria-hidden:false;
+	tabindex:0px;
+}
+
+.slider_Lokesh {
+  height: 300px;
+  display: flex;
+  overflow-x: auto;
+}
+.gallery_area{
+	  background-color: honeydew;
 }
